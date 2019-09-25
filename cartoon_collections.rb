@@ -7,7 +7,7 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(words)
-  words.reduce{|memo, obj| obj.length
+  words.reduce{|memo, obj| obj.length > 4}
   
 end
 
